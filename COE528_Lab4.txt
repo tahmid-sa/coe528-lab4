@@ -1,0 +1,51 @@
+Consider a computer email system with the following actors: user,server, and viruschecker
+
+A. Explain the relevance of each actor, in brief.
+
+User-The user is the client who is accessing the computer email system for its services. The main objective of the user is to act as the endpoint for emails, as well as a point where the emails may come to a final destination or originate from. It may hold the use cases pertaining to loging in to the email system to access emails, replying to emails, forwarding emails, sending new emails, deleting emails, changing profile settings etc.
+
+Server-The server is the communication link between the origination and destination of the emails. The server will act as a link between different users, in terms of sending, receiving emails and ensuring overall maintenance of the traffic of emails. It may have the use cases relating to receiving emails from other computers, sending emails to a specific destination, holding an email account/address database for users etc.
+
+Viruschecker-The viruschecker will be responsible for detecting security risks or faults within the computer email system. Therefore, it will maintain overall network security from users who may cause harm to the server or other users through their activities. The viruschecker may hold the use cases to detect viruses, spam or other malware through the computer email system. It may also support users in blocking harmful activity from other users and have multiple virus scan functions to clean the emails, harmful attachments, files etc.
+
+B. The computer email system has some use-cases; one of them is to "get an email." List four additional use cases at a comparable level of abstraction. Summarize the purpose of each use case with a sentence.
+
+1. Create email account-This use case will allow the user to create their email account. The abstraction from this use case is that it does not explicitely state whether the account will be of a specific type, for a person, business, organization etc. Therefore, with this use case, the user may choose afterwards on the type of account which will be created, using the required arguments, first name, last name, date of birth, cell phone number etc.
+
+2. Send email-The user or server may also send an email to other users with this use case. The user may choose how many users they would like to send the email to, as well as other options such as attachments, links, automatically generated email senders and such. Thus, this use case allows abstraction in which the user may later decide from many options on the different additions they may want to include in their email.
+
+3. Enhance security-The viruschecker or user may use this use case where it is able to provide an enhanced security for users where they will not receive spam emails, cyber threat emails, or viruses from other users. This use case has an abstraction in which it may allow the user to decide how the security enhancement may proceed, by many ways of cleaning the emails, blocking certain users, upgrading profile security settings etc.
+
+4. Organize emails-The user may choose to organize their emails in appropriate archives, inboxes, spams etc. The user is able to choose in which way the organized emails may appear with shifting their emails from different sections. This use case allows an abstraction where the user is able to decide the appropriate shifting of emails from different sections as well as arranging the grouped emails their preferred method.
+
+C. Prepare a use case diagram for a computer email system using Violet.
+
+File is provided in the zipped folder.
+
+D. Prepare a scenario for the use case, "get an email". Remember that a scenario is an example and need not exercise all functionality of the use case. You can use bullet points.
+
+A scenario for the use case "get an email" may include the following listed in order, with the actors of UserA, UserB, UserC, Server, and Viruschecker:
+
+-UserB will login to the computer email system using their appropriate email/username and password.
+-UserB will send an email to UserA.
+-The server will receive email from UserB and send it to UserA.
+-The viruschecker will check the email sent to UserA for any viruses.
+-UserA gets an email in their inbox from UserB.
+-UserA will login to the computer email system using their appropriate email/username and password.
+-UserA will open the email sent by UserB.
+-UserA replies to the received email by also CCing UserC and attaching a file into the email. 
+-The viruschecker will scan the email sent by UserA for any viruses.
+-The Server will get the email from UserA.
+-The Server will send the respective email to both UserB and UserC.
+-UserB will get the respective email with the file attachment.
+-UserC will also get the respective email with the file attachment due to them being CCed by UserA.
+-UserB will open the email sent by UserA.
+-UserB will then logout of the computer email system.
+-UserC will then also open the email sent by UserA.
+-UserC will navigate to settings.
+-UserC will delete their email account.
+-UserA will then proceed to logout of their email account.
+
+E. Prepare a sequence diagram corresponding to the scenario in (d). 
+
+File is provided in the zipped folder.
